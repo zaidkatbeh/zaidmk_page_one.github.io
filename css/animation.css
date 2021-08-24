@@ -1,0 +1,11 @@
+/* -------------------------------animation for header------------------------- */
+@keyframes full_width{
+    0%{
+        top: 35%;
+        right: 2px;
+        width: 20px;
+    }
+    100%{
+        width: 39px;
+    }
+}

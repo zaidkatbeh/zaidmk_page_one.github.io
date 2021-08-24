@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* -------------------------------start of nav ---------------------------------- */
+nav{
+    position: relative;
+    display: flex;
+    padding: 12px;
+    background-color: white;
+    padding-left: 80px;
+    justify-content: space-between;
+}
+                        /* ------------ start company logo---------------- */
+.co_name{
+    position: relative;
+    padding-left: 3px;
+    font-size: 40px;
+    color: #29D0BE;
+    top: -3px;
+}
+.co_name::before {
+    position: absolute;
+    content: "";
+    width: 4.2px;
+    height: 23px;
+    top: 16px;
+    background-color: #24484F;
+    margin-left: -7px;
+    font-family: 'Roboto', sans-serif;
+}
+                        /* ------------ end company logo---------------- */
+.content_list{
+    position: absolute;
+    width: 40px;
+    height: 27px;
+    right: 80px;    
+    top: 23px;
+    padding: 1px;
+}
+.content_list div{
+    width: 39px;
+    height: 2.5px;
+    background-color: black;
+    margin-bottom: 6px;
+}
+
+.content_list div:nth-child(2){
+    visibility: hidden;
+}
+.content_list::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 2.5px;
+    background-color: black;
+    margin-bottom: 6px;
+    top: 35%;
+    right: 2px;
+}
+.content_list:hover::before{
+    width: 39px;
+    animation-name: full_width;
+    animation-duration: 0.5s;
+}
+
