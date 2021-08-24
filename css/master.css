@@ -4,6 +4,9 @@
     box-sizing: 0;
     font-family: 'Roboto', sans-serif;
 }
+body{
+    background-color: blue;
+}
 /* -------------------------------start of nav ---------------------------------- */
 nav{
     position: relative;

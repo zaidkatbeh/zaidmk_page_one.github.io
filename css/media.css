@@ -1,0 +1,15 @@
+@media (min-width:320px){
+    nav{
+        padding-left: 25px;
+    }
+        nav .content_list{
+            right: 20px;   
+        }
+    
+}
+@media (min-width:568px)and(max-width:812px){
+    body{
+        background-color: red;
+        z-index: 100;
+    }
+}
