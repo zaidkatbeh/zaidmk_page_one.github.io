@@ -14,14 +14,14 @@ nav{
     justify-content: space-between;
 }
                         /* ------------ start company logo---------------- */
-.co_name{
+nav .co_name{
     position: relative;
     padding-left: 3px;
     font-size: 40px;
     color: #29D0BE;
     top: -3px;
 }
-.co_name::before {
+nav .co_name::before {
     position: absolute;
     content: "";
     width: 4.2px;
@@ -32,25 +32,27 @@ nav{
     font-family: 'Roboto', sans-serif;
 }
                         /* ------------ end company logo---------------- */
-.content_list{
+                        /* ------------ start the list bottun ---------------- */
+nav .content_list{
     position: absolute;
     width: 40px;
     height: 27px;
     right: 80px;    
     top: 23px;
     padding: 1px;
+   
 }
-.content_list div{
+nav .content_list div{
     width: 39px;
     height: 2.5px;
     background-color: black;
     margin-bottom: 6px;
 }
 
-.content_list div:nth-child(2){
+nav .content_list div:nth-child(2){
     visibility: hidden;
 }
-.content_list::before{
+nav .content_list::before{
     content: "";
     position: absolute;
     width: 20px;
@@ -60,9 +62,51 @@ nav{
     top: 35%;
     right: 2px;
 }
-.content_list:hover::before{
+nav .content_list:hover::before{
     width: 39px;
     animation-name: full_width;
     animation-duration: 0.5s;
 }
+nav .content_list ul{
+    position: relative;
+    list-style-type: none;
+    list-style-position: inside;
+    visibility: hidden;    background-color: #F6F6F6;
+    width: fit-content;
+    padding: 10px;
+    margin-top: 10px;
+    right: 40px;
+}
+nav .content_list ul:hover{
+    opacity: 100%;
+    visibility: visible;
+}
+nav .content_list ul::after{
+    content: "";
+    position: absolute;
+    border: 10px solid blue;
+    border-color: transparent transparent #f6f6f6 transparent;
+    top: -6px;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+nav .content_list ul::before{
+    content: "";
+    position: absolute;
+    top: -27px;
+    left: 40px;
+    width: 40px ;
+    height: 60px;
+    z-index: 100;
+    visibility: visible;
+    
+}
+nav .content_list ul li{
+    margin-top: 10px;
+}
+
 

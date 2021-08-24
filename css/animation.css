@@ -7,5 +7,6 @@
     }
     100%{
         width: 39px;
+        display: unset;
     }
 }
