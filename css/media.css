@@ -1,4 +1,5 @@
-@media (min-width:320px){
+/* -------------------------phone screen------------------------- */
+@media (min-width:320px)and (max-width:414px){
     nav{
         padding-left: 25px;
     }
@@ -10,9 +11,12 @@
         }
     
 }
+
 @media (min-width:568px)and(max-width:812px){
     body{
         background-color: red;
         z-index: 100;
     }
 }
+
+/* ----------------------------computer screen--------------------- */

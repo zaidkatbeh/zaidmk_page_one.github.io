@@ -10,3 +10,15 @@
         display: unset;
     }
 }
+/* -------------------------------animation for header------------------------- */
+
+/* -------------------------------animation for text in the links------------------------- */
+@keyframes moving_text {
+    0%{
+        padding-left: 10px;
+    }
+    100%{
+        padding-left: 20px;
+    }
+}
+/* -------------------------------animation for text in the links------------------------- */
