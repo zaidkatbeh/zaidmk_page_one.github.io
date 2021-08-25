@@ -6,17 +6,17 @@
         nav .content_list{
             right: 20px;   
         }
-        body{
+        /* body{
             background-color: red;
-        }
+        } */
     
 }
 
 @media (min-width:568px)and(max-width:812px){
-    body{
+    /* body{
         background-color: red;
         z-index: 100;
-    }
+    } */
 }
 
 /* ----------------------------computer screen--------------------- */

@@ -5,7 +5,7 @@
     font-family: 'Roboto', sans-serif;
 }
 body{
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.164);
 }
 /* -------------------------------start of nav ---------------------------------- */
 nav{
@@ -15,6 +15,7 @@ nav{
     background-color: white;
     padding-left: 80px;
     justify-content: space-between;
+    padding-bottom: 20px;
 }
                         /* ------------ start the list bottun ---------------- */
 nav .content_list{
@@ -84,19 +85,25 @@ nav .content_list ul::before{
     top: -30px;
     right: 0px;
     width: 40px ;
-    height: 60px;
+    height: 24px;
     z-index: 100;
     visibility: visible;
     
 }
 nav .content_list ul li{
-    margin-top: 20px;
-    
+    padding-bottom: 10px;
+    padding-top: 10px;
+    cursor: pointer;
     padding-right: 80px;
     padding-left: 10px;
+    height: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.39);
+}
+nav .content_list ul li:last-child{
+    border-bottom: none;
 }
 nav .content_list ul li:hover{
-    padding-left: 20px;
+    padding-left: 30px;
     animation-name: moving_text;
     animation-duration: 0.7s;
 }
@@ -110,4 +117,63 @@ nav .content_list ul li button{
 
 
 /* -------------------------------end of nav ---------------------------------- */
+                                        /* -
+                                        -
+                                        - */
+/* -------------------------------start of first content ---------------------------------- */
+.first_content{
+
+}
+                        /* ------------ start of first content  img ---------------- */
+.first_content_img{
+    position: relative;
+    width:100%;
+    height:550px;
+    background-image:url('../images/joker.jpg');
+    color: white;
+    margin-bottom: 40px;
+}
+.first_content_img h1{
+    color: rgb(214, 214, 214);
+    text-align: center;
+    font-size: 60px;
+    line-height: 400px;
+}
+.first_content_img h3{
+    text-align: center;
+    margin-top: -200px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+}
+                        /* ------------ end of first content  img ---------------- */
+
+                        /* ------------ start of first content  advantages ---------------- */
+.first_content .advantages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.first_content .advantages img{
+    color: blue;
+    width:60px;
+    height:60px;
+}
+.first_content .advantages div:last-child img{
+    padding-left:35px ;
+}
+.first_content .advantages div h4{
+    text-align: left;
+    margin-left: -50px;
+    margin-top: 5px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.589);
+}
+.first_content .advantages div h2{
+    text-align: left;
+    margin-left: -70px;
+}
+.first_content .advantages div h2:first-child{
+    margin-left: 0px;
+}
 
