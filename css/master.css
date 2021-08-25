@@ -61,6 +61,7 @@ nav .content_list ul{
     padding: 10px;
     margin-top: 10px;
     right: 140px;
+    z-index: 100;
 }
 nav .content_list ul:hover{
     opacity: 100%;
@@ -70,7 +71,7 @@ nav .content_list ul::after{
     content: "";
     position: absolute;
     border: 10px solid blue;
-    border-color: transparent transparent #f6f6f6 transparent;
+    border-color: transparent transparent #F6F6F6 transparent;
     top: -6px;
     left: 90%;
     transform: translate(-50%,-50%);
