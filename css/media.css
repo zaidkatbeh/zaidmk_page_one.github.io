@@ -6,17 +6,28 @@
         nav .content_list{
             right: 20px;   
         }
-        /* body{
-            background-color: red;
-        } */
+        /* ------media for first content advanteges------ */
+        .first_content .advantages>div{
+            width:100%;
+            align-content: space-between;
+            margin-bottom: 20px;
+        }
     
 }
 
-@media (min-width:568px)and(max-width:812px){
-    /* body{
-        background-color: red;
-        z-index: 100;
-    } */
+@media (min-width:415px) and (max-width:812px){
+    .first_content  .advantages>div{
+        align-content: space-between;
+        margin-bottom: 20px;
+        width:50%;
+    }
 }
 
 /* ----------------------------computer screen--------------------- */
+@media (min-width:1024px)and (max-width:1112px){
+
+}
+
+@media (min-width:1112px){
+
+}

@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 body{
@@ -44,10 +44,10 @@ nav .content_list::before{
     background-color: black;
     margin-bottom: 6px;
     top: 35%;
-    right: 2px;
+    right: 1px;
 }
 nav .content_list:hover::before{
-    width: 39px;
+    width: 38px;
     animation-name: full_width;
     animation-duration: 0.5s;
 }
@@ -84,7 +84,7 @@ nav .content_list ul::before{
     content: "";
     position: absolute;
     top: -30px;
-    right: 0px;
+    right: -20px;
     width: 40px ;
     height: 24px;
     z-index: 100;
@@ -155,26 +155,20 @@ nav .content_list ul li button{
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+.first_content .advantages>div{
+    width:30%;
+    text-align: center;
+    padding: 5px;
+}
 .first_content .advantages img{
     color: blue;
     width:60px;
     height:60px;
 }
-.first_content .advantages div:last-child img{
-    padding-left:35px ;
-}
+
 .first_content .advantages div h4{
-    text-align: left;
-    margin-left: -50px;
+    text-align: center;
     margin-top: 5px;
     line-height: 25px;
     color: rgba(0, 0, 0, 0.589);
 }
-.first_content .advantages div h2{
-    text-align: left;
-    margin-left: -70px;
-}
-.first_content .advantages div h2:first-child{
-    margin-left: 0px;
-}
-
