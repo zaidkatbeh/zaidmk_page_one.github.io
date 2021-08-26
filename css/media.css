@@ -1,5 +1,5 @@
 /* -------------------------phone screen------------------------- */
-@media (min-width:320px)and (max-width:414px){
+@media (min-width:320px) and (max-width:414px){
     nav{
         padding-left: 25px;
     }
@@ -12,6 +12,7 @@
             align-content: space-between;
             margin-bottom: 20px;
         }
+        /* ------media for sevices logo----- */
         .services .logo h1{
             font-size: 60px;
         }
@@ -19,6 +20,18 @@
             font-size: 18px;
             margin-top: -22px;
         }
+        /* ------media for services content------ */
+        .services .s_content .three{
+            display: none;
+        }
+        .services .s_content{
+            grid-template-columns: repeat(1,auto);
+            grid-template-rows: repeat(2,auto);
+        }
+        .services .s_content div{
+            text-align: center;
+        }
+        
 }
 
 @media (min-width:415px) and (max-width:812px){
@@ -27,11 +40,26 @@
         margin-bottom: 20px;
         width:50%;
     }
+            /* ------media for services content------ */
+    .services .s_content .three{
+        display: none;
+    }
+    .services .s_content{
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: repeat(2,auto);
+    }
 }
 
 /* ----------------------------computer screen--------------------- */
-@media (min-width:1024px)and (max-width:1112px){
-
+@media (min-width:1024px) and (max-width:1112px){
+        /* ------media for services content------ */
+    .services .s_content .three{
+        display: none;
+    }
+    .services .s_content{
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: repeat(2,auto);
+    }
 }
 
 @media (min-width:1112px){

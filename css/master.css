@@ -180,6 +180,8 @@ nav .content_list ul li button{
     padding-top: 40px;
     background-color: white;
 }
+                        /* ------------ start logo ---------------- */
+
 .services .logo h1{
     text-align: center;
     font-size: 90px;
@@ -192,3 +194,58 @@ nav .content_list ul li button{
     margin-top: -33px;
     color: rgba(0, 0, 0, 0.596);
 }
+                        /* ------------ end logo ---------------- */
+
+                        /* ------------ start services content ---------------- */
+
+
+.services .s_content{
+    margin-top: 40px;
+    display: grid;
+    justify-content: space-evenly;
+    align-content: space-between; 
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(2,auto);
+    column-gap: auto; 
+    row-gap: 20px; 
+}
+.services .s_content div{
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    width: 50%;
+}
+.services .s_content div span{
+    display: block;
+    font-weight: bold;
+    font-size: 25px;
+}
+.services .s_content div h3{
+    margin-left: 60px;
+}
+.services .s_content>div>img:not(.side){
+    width: 60px;
+    height: 60px;
+}
+.services .s_content .three{
+    grid-column: 3/4;
+    grid-row: 1/3;
+    position: relative;
+    z-index: 100;
+}
+.services .s_content .three::after{
+    content: "";
+    position: absolute;
+    background-color: #2C4755;
+    width: 80px;
+    height: 114%;
+    right: -80px;
+    top: -7%;
+    z-index: -1;
+}
+.services .s_content .three img{
+    width: 260px;
+    height: 400px;
+    margin-left: -160px;
+}
+                        /* ------------ end services content ---------------- */
