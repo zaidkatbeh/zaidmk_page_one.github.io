@@ -4,9 +4,6 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-body{
-    background-color: rgba(0, 0, 255, 0.164);
-}
 /* -------------------------------start of nav ---------------------------------- */
 nav{
     position: relative;
@@ -113,6 +110,7 @@ nav .content_list ul li button{
     background-color: transparent;
     border: none;
     font-size: 18px;
+    cursor: pointer;
 }
                         /* ------------ end the list bottun ---------------- */
 
@@ -123,7 +121,7 @@ nav .content_list ul li button{
                                         - */
 /* -------------------------------start of first content ---------------------------------- */
 .first_content{
-
+    background-color: rgba(0, 0, 255, 0.164);
 }
                         /* ------------ start of first content  img ---------------- */
 .first_content_img{
@@ -171,4 +169,26 @@ nav .content_list ul li button{
     margin-top: 5px;
     line-height: 25px;
     color: rgba(0, 0, 0, 0.589);
+}
+
+                        /* ------------ end of first content  advantages ---------------- */
+                        /* -------------------------------end of first content ---------------------------------- */
+
+                        /* -------------------------------start of sevices  ---------------------------------- */
+
+.services{
+    padding-top: 40px;
+    background-color: white;
+}
+.services .logo h1{
+    text-align: center;
+    font-size: 90px;
+    color: rgba(0, 0, 0, 0.171);
+}
+.services .logo  p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: -33px;
+    color: rgba(0, 0, 0, 0.596);
 }

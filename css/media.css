@@ -12,7 +12,13 @@
             align-content: space-between;
             margin-bottom: 20px;
         }
-    
+        .services .logo h1{
+            font-size: 60px;
+        }
+        .services .logo p{
+            font-size: 18px;
+            margin-top: -22px;
+        }
 }
 
 @media (min-width:415px) and (max-width:812px){
