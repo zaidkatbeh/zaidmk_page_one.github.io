@@ -58,8 +58,8 @@
     }
     .about .a_content img{
         grid-row: 1/2;
-        width: 250px;
-        margin-left: 60px;
+        width: 200px;
+        margin-left: 80px;
     }
     .about .a_content :nth-child(2),
     .about .a_content :nth-child(3){
