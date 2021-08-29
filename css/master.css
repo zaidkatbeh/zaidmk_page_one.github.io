@@ -152,6 +152,7 @@ nav .content_list ul li button{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    background-color: #D5D5FF;
 }
 .first_content .advantages>div{
     width:30%;
@@ -214,6 +215,7 @@ nav .content_list ul li button{
     flex-wrap: wrap;
     height: fit-content;
     width: 50%;
+    margin-bottom: 40px;
 }
 .services .s_content div span{
     display: block;
@@ -222,6 +224,7 @@ nav .content_list ul li button{
 }
 .services .s_content div h3{
     margin-left: 60px;
+    color: rgba(0, 0, 0, 0.356);
 }
 .services .s_content>div>img:not(.side){
     width: 60px;
@@ -249,3 +252,53 @@ nav .content_list ul li button{
     margin-left: -160px;
 }
                         /* ------------ end services content ---------------- */
+                /* -------------------------------end of sevices  ---------------------------------- */
+                
+                /* -------------------------------start of portfolio  ---------------------------------- */
+                        /* ------------ start portfolio logo ---------------- */
+
+.portfolio .logo{
+    padding: 8px;
+    background-color: #f6f6f6;
+    padding-bottom: 40px;
+}
+.portfolio .logo h1{
+    text-align: center;
+    font-size: 90px;
+    color: rgba(0, 0, 0, 0.171);
+}
+
+.portfolio .logo  p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: -33px;
+    color: rgba(0, 0, 0, 0.596);
+}
+                        /* ------------ end portfolio logo ---------------- */
+                        /* ------------ start portfolio content ---------------- */
+.portfolio .p_content{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F6F6F6;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+.portfolio .p_content div{
+    text-align: left;
+}
+.portfolio .p_content div img{
+    width: 450px;
+    height: 253.125px;
+}
+.portfolio .p_content div p{
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.486);
+    font-weight: bold;
+}
+.portfolio .p_content div p,
+.portfolio .p_content div h2{
+    padding-left: 15px;
+}
+                        /* ------------ end portfolio content ---------------- */

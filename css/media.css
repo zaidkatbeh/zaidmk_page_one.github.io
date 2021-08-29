@@ -27,8 +27,17 @@
         .services .s_content{
             grid-template-columns: repeat(1,auto);
             grid-template-rows: repeat(2,auto);
+            margin-left: 60px;
+
         }
-        .services .s_content div{
+        .services .s_content span{
+            margin-left: 65px;
+        }
+        .services .s_content img{
+            margin-left: 65px;
+        }
+        /* ------media for sportfolio content------ */
+        .portfolio .p_content div{
             text-align: center;
         }
         
@@ -47,7 +56,16 @@
     .services .s_content{
         grid-template-columns: repeat(2,auto);
         grid-template-rows: repeat(2,auto);
+        margin-left: 60px;
+
     }
+    .services .s_content span{
+        margin-left: 65px;
+    }
+    .services .s_content img{
+        margin-left: 65px;
+    }
+    
 }
 
 /* ----------------------------computer screen--------------------- */
@@ -59,6 +77,10 @@
     .services .s_content{
         grid-template-columns: repeat(2,auto);
         grid-template-rows: repeat(2,auto);
+        column-gap: 0ch;
+        row-gap: 10px;
+        width: fit-content;
+
     }
 }
 
