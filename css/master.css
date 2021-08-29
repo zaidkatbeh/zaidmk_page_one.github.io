@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
 }
 /* -------------------------------start of nav ---------------------------------- */
 nav{
@@ -120,9 +121,7 @@ nav .content_list ul li button{
                                         -
                                         - */
 /* -------------------------------start of first content ---------------------------------- */
-.first_content{
-    background-color: rgba(0, 0, 255, 0.164);
-}
+
                         /* ------------ start of first content  img ---------------- */
 .first_content_img{
     position: relative;
@@ -130,7 +129,6 @@ nav .content_list ul li button{
     height:550px;
     background-image:url('../images/joker.jpg');
     color: white;
-    margin-bottom: 40px;
 }
 .first_content_img h1{
     color: rgb(214, 214, 214);
@@ -153,6 +151,7 @@ nav .content_list ul li button{
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #D5D5FF;
+    padding-top: 20px;
 }
 .first_content .advantages>div{
     width:30%;
@@ -283,6 +282,7 @@ nav .content_list ul li button{
     background-color: #F6F6F6;
     justify-content: space-evenly;
     align-content: space-between;
+    padding-bottom: 60px;
 }
 .portfolio .p_content div{
     text-align: left;
@@ -302,3 +302,158 @@ nav .content_list ul li button{
     padding-left: 15px;
 }
                         /* ------------ end portfolio content ---------------- */
+                /* -------------------------------end of portfolio  ---------------------------------- */
+
+                /* -------------------------------start of about  ---------------------------------- */
+                        /* ------------ start about logo ---------------- */
+.about .logo{
+    padding: 8px;
+    background-color: white;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.about .logo h1{
+    text-align: center;
+    font-size: 90px;
+    color: rgba(0, 0, 0, 0.171);
+}
+
+.about .logo  p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: -33px;
+    color: rgba(0, 0, 0, 0.596);
+}
+                        /* ------------ end about logo ---------------- */
+
+                        /* ------------ start about content ---------------- */
+.about .a_content {
+    display: grid;
+    grid-template-columns: 640px auto;
+    grid-template-rows:repeat(2,auto);
+    font-size: 25px;
+}
+.about .a_content img{
+    grid-row: 1/3;
+    position: relative;
+    margin-left: 80px;
+    font-size: 80px;
+}
+.about .a_content :nth-child(2){
+    position: relative;
+    font-weight: bold;
+}
+.about .a_content :nth-child(3){
+    color: rgba(0, 0, 0, 0.432);
+    position: relative;
+}
+.about .a_content :nth-child(2)::after{
+    content: "";
+    position: absolute;
+    border: 1px solid #10CAB7;
+    width: 50%;
+    height: 1px;
+    bottom: 20px;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.about .a_content :nth-child(2)::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 564px;
+    background-color: #EBECED;
+    left: -600px;
+    z-index: -1;
+}
+.about .a_content :nth-child(3)::after{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    bottom: 40px;
+    left: -100px;
+    background-color: #10CAB7;
+}
+.about .a_content :nth-child(3)::before{
+    content: "";
+    position: absolute;
+    /* left: 80px; */
+    height: 496px;
+    width: 60px;
+    background-color: #10CAB7;
+    top: -253px;
+    left: -160px;
+}
+                        /* ------------ end about content ---------------- */
+                /* -------------------------------end of about  ---------------------------------- */
+
+                /* -------------------------------start of contact  ---------------------------------- */
+
+                        /* ------------ start contact logo ---------------- */
+.contact .logo{
+    padding: 8px;
+    background-color: #F6F6F6;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin-top: 60px;
+}
+.contact .logo h1{
+    text-align: center;
+    font-size: 90px;
+    color: rgba(0, 0, 0, 0.171);
+}
+
+.contact .logo  p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: -33px;
+    color: rgba(0, 0, 0, 0.596);
+}
+                        /* ------------ end contact logo ---------------- */
+                        /* ------------ start contact content ---------------- */
+.contact .c_content{
+    text-align: center;
+    padding-top: 20px;
+    background-color: #F6F6F6;
+    padding-bottom: 40px;
+}
+.contact .c_content *{
+    font-size: 30px;
+    font-weight: bold;
+}
+.contact .c_content p:first-child{
+    font-size: 40px;
+}
+.contact .c_content a{
+    color: #10CAB7;
+    text-decoration: none;
+}
+.contact .c_content p:last-child{
+    font-weight: normal;
+}
+.contact .c_content img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+        /* ------------ end contact content ---------------- */
+                /* -------------------------------end of contact  ---------------------------------- */
+                
+                /* -------------------------------start of footer  ---------------------------------- */
+footer{
+    width: 100%;
+    background-color: #2C4755;
+    color: white;
+    height: fit-content;
+    padding: 35px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
