@@ -37,8 +37,13 @@
             margin-left: 65px;
         }
         /* ------media for sportfolio content------ */
+        .portfolio .p_content div img{
+            width: 300px;
+            height: 168.75px;
+        }
         .portfolio .p_content div{
             text-align: center;
+            width: 290px;
         }
         
 }
