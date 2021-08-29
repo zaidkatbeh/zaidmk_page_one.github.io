@@ -69,8 +69,20 @@
         bottom: -40px;
         left: 50%;
     }
+    .contact .c_contact a{
+        display: none;
+    }
+    .contact .c_content p:first-child{
+        font-size: 20px;
+    }
+    .contact .c_content p:last-child{
+        font-size: 20px;
+    }
+    .contact .c_content img{
+        width: 20px;
+        height: 20px;
+    }
     
-        
 }
 
 @media (min-width:415px) and (max-width:812px){

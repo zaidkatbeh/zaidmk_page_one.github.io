@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
+    scroll-behavior: smooth;
 }
 /* -------------------------------start of nav ---------------------------------- */
 nav{
