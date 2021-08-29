@@ -138,9 +138,6 @@
     .about .a_content :nth-child(3)::before{
         display: none;
     }
-    body{
-        background-color: red;
-    }
 }
 
 @media (min-width:1112px){
