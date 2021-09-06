@@ -6,6 +6,9 @@
         nav .content_list{
             right: 20px;   
         }
+    body{
+        overflow-x: hidden;
+    }
         /* ------media for first content advanteges------ */
         .first_content .advantages>div{
             width:100%;
